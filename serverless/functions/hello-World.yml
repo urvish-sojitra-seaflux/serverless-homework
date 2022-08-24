@@ -1,0 +1,5 @@
+# define function here after put into mani serverless file
+handler: handler.lambdaHandler
+name: ${self:service}-${opt:stage, self:provider.stage}-hello
+description:
+
